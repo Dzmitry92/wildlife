@@ -1,0 +1,30 @@
+{
+  "name": "wildlife",
+  "version": "1.0.0",
+  "description": "practical task",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch --no-source-map ./styles/index.scss:index.css",
+    "build": "sass --no-source-map ./styles/index.scss:index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dzmitry92/wildlife.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "layout",
+    "sass"
+  ],
+  "author": "Dzmitry Serafimovich <teramisu01@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dzmitry92/wildlife/issues"
+  },
+  "homepage": "https://github.com/Dzmitry92/wildlife#readme",
+  "dependencies": {
+    "sass": "^1.32.8"
+  }
+}

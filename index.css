@@ -1,3 +1,135 @@
 body {
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  color: #F7F7F7;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+header {
+  position: relative;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.header-container {
+  top: 20px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+}
+.logo-box img {
+  margin-right: 15px;
+}
+.logo-box h2 {
+  text-transform: uppercase;
+  font-family: Roboto, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 60px;
+}
+
+.nav-block ul {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+}
+.nav-block ul li {
+  cursor: pointer;
+}
+.nav-block ul li:not(:last-child) {
+  margin-right: 60px;
+}
+.nav-block ul a:hover {
+  text-decoration: underline;
+}
+
+.btn-search {
+  padding: 11px 23px;
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: solid 2px #CD6326;
+}
+.btn-search:hover {
+  background-color: #CD6326;
+}
+
+.survival {
+  background-color: #02160b;
+}
+
+.articles {
+  background-color: #cccccc;
+}
+
+.footer {
   background-color: #181617;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 120px;
+}
+
+.btn {
+  width: fit-content;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  font-family: Roboto, sans-serif;
+  color: #F7F7F7;
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+  transition: background-color 0.2s linear;
+}
+
+.survival__container {
+  display: flex;
+  align-items: center;
+  height: 780px;
+  background: url(../assets/fox.jpg) no-repeat;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  max-width: 274px;
+}
+.info-block h1 {
+  margin-bottom: 51px;
+  color: #CD6326;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 72px;
+  letter-spacing: 2px;
+}
+.info-block p {
+  margin-bottom: 49px;
+  color: #F7F7F7;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+}
+.info-block .btn-donate {
+  border: none;
+  padding: 16px 42px;
+  background-color: #CD6326;
+}
+.info-block .btn-donate:hover {
+  background-color: #E39128;
 }

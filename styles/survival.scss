@@ -1,0 +1,41 @@
+@import "variables";
+
+.survival__container {
+  display: flex;
+  align-items: center;
+  height: 780px;
+  background: url(../assets/fox.jpg) no-repeat;
+}
+
+.info-block {
+  display: flex;
+  flex-direction: column;
+  max-width: 274px;
+
+  h1 {
+    margin-bottom: 51px;
+    color: $orange-main;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 72px;
+    letter-spacing: 2px;
+  }
+
+  p {
+    margin-bottom: 49px;
+    color: $font-light;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .btn-donate {
+    border: none;
+    padding: 16px 42px;
+    background-color: $orange-main;
+
+    &:hover {
+      background-color: $orange-hover;
+    }
+  }
+}

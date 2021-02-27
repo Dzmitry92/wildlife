@@ -1,3 +1,52 @@
+@import "variables";
+
 body {
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  color: $font-light;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+@import "header";
+
+.survival {
+  background-color: #02160b;
+}
+
+.articles {
+  background-color: #cccccc;
+}
+
+.footer {
   background-color: #181617;
 }
+
+.content {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 120px;
+}
+
+.btn {
+  width: fit-content;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+
+  font-family: Roboto, sans-serif;
+  color: $font-light;
+  font-size: 23px;
+  line-height: 27px;
+  text-align: center;
+
+  transition: background-color 0.2s linear;
+}
+
+@import "survival";

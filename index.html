@@ -5,13 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wildlife</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon" />
     <link href="/index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
   </head>
   <body>
     <div class="page">
-      <header></header>
-      <main></main>
-      <footer></footer>
+      <header>
+        <div class="header-container">
+          <div class="logo-box">
+            <img src="./assets/logoImg.svg" alt="logo" />
+            <h2>wildlife</h2>
+          </div>
+          <nav class="nav-block">
+            <ul>
+              <li><a>Blog</a></li>
+              <li><a>Contacts</a></li>
+              <li><img src="./assets/search.svg" alt="search" /></li>
+              <li><button type="button" class="btn btn-search">Sign in</button></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <section class="survival">
+          <div class="content survival__container">
+            <div class="info-block">
+              <h1>Survival</h1>
+              <p>
+                What this means is that we exist to help protect our environment
+                and do in numbers of ways. You can save the planet by donation.
+              </p>
+              <button type="button" class="btn btn-donate">Donate</button>
+            </div>
+          </div>
+        </section>
+        <section class="articles">
+          <div class="content articles_container"></div>
+        </section>
+      </main>
+      <footer>
+        <div class="footer"></div>
+      </footer>
     </div>
   </body>
 </html>

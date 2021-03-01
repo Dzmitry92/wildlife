@@ -38,6 +38,7 @@
   transform: rotate(180deg);
 }
 
+
 .arrow-left, .arrow-right {
   cursor: pointer;
 }
@@ -63,6 +64,7 @@
   text-align: center;
   margin-bottom: 40px;
   h4 {
+    margin-bottom: 10px;
     font-size: 22px;
     line-height: 36px;
     font-weight: 400;
@@ -108,8 +110,8 @@
 }
 
 .search-block__input {
-  width: 480px;
-  height: 32px;
+  width: 509px;
+  height: 34px;
   padding: 13px 15px;
   outline: none;
   border: 1px solid $font-grey;
@@ -132,12 +134,12 @@
 }
 
 .btn-send {
-  padding: 11px 30px;
+  padding: 11px 35px;
   background-color: $orange-main;
   border: none;
   border-radius: 0 5px 5px 0;
 
-  &:hover {
+  &:hover, &:focus {
     background-color: $orange-hover;
   } 
 }

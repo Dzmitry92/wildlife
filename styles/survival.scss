@@ -11,6 +11,7 @@
   display: flex;
   flex-direction: column;
   max-width: 274px;
+  margin-bottom: 40px;
 
   h1 {
     margin-bottom: 51px;
@@ -34,7 +35,7 @@
     padding: 16px 42px;
     background-color: $orange-main;
 
-    &:hover {
+    &:hover, &:focus {
       background-color: $orange-hover;
     }
   }

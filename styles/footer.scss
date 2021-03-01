@@ -3,6 +3,12 @@
 .footer-content {
   height: 360px;
   background: url(../assets/footerImg.jpg) no-repeat;
+
+  .conten-box {
+    li:not(:last-child) {
+      margin-right: 86px;
+    }
+  }
 }
 
 .conten-box {
@@ -21,10 +27,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  padding: 5px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   cursor: pointer;
   transition: background-color 0.2s linear;
 
@@ -32,7 +39,7 @@
     margin-right: 26px;
   }
 
-  &:hover {
+  &:hover, &:focus {
     background-color: $orange-hover;
     i {
       color: $font-light;

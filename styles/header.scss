@@ -19,7 +19,7 @@ header {
   display: flex;
   align-items: center;
 
-  img {
+  svg {
     margin-right: 15px;
   }
 
@@ -44,7 +44,7 @@ header {
     }
 
     li:not(:last-child) {
-      margin-right: 60px;
+      margin-right: 65px;
     }
 
     a {
@@ -52,7 +52,7 @@ header {
       line-height: 60px;
     }
 
-    a:hover {
+    a:hover, a:focus {
       text-decoration: underline;
     }
   }
@@ -64,7 +64,7 @@ header {
   background-repeat:no-repeat;
   border: solid 2px $orange-main;
 
-  &:hover {
+  &:hover, &:focus {
     background-color: $orange-main;
   }
 }

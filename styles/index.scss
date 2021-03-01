@@ -16,6 +16,7 @@ body {
 
 svg {
   transition: fill 0.2s linear;
+
   &:hover, &:focus {
     fill: $orange-hover;
   }
@@ -46,13 +47,11 @@ footer {
   border-radius: 5px;
   cursor: pointer;
   outline: none;
-
   font-family: "Roboto", sans-serif;
   color: $font-light;
   font-size: 23px;
   line-height: 27px;
   text-align: center;
-
   transition: background-color 0.2s linear;
 }
 

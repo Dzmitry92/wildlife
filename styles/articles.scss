@@ -6,7 +6,6 @@
   align-items: center;
 }
 
-
 .heading-box {
   margin-top: 120px;
   margin-bottom: 120px;
@@ -38,9 +37,14 @@
   transform: rotate(180deg);
 }
 
-
 .arrow-left, .arrow-right {
+  margin: 5px;
   cursor: pointer;
+}
+
+.slider {
+  width: 100%;
+  max-width: 1020px;
 }
 
 .slider__content {
@@ -54,15 +58,12 @@
   justify-content: center;
   width: 300px;
   height: 360px;
-
-  &:not(:last-child) {
-    margin-right: 60px;
-  }
 }
 
 .text-block {
   text-align: center;
   margin-bottom: 40px;
+
   h4 {
     margin-bottom: 10px;
     font-size: 22px;
@@ -119,7 +120,6 @@
   border-radius: 3px 0 0 3px;
   background-color: #cccccc;
   color: $font-grey;
-
   font-size: 22px;
   font-weight: 400;
   font-style: normal;
@@ -128,7 +128,6 @@
     font-family: Roboto, sans-serif;
     color: $font-grey;
     font-size: 22px;
-    // line-height: 17px;
     font-weight: 400;
   }
 }

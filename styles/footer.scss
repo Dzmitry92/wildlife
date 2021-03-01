@@ -1,0 +1,47 @@
+@import "variables";
+
+.footer-content {
+  height: 360px;
+  background: url(../assets/footerImg.jpg) no-repeat;
+}
+
+.conten-box {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #F7F7F7;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+
+  &:not(:last-child) {
+    margin-right: 26px;
+  }
+
+  &:hover {
+    background-color: $orange-hover;
+    i {
+      color: $font-light;
+    }
+  }
+
+  i {
+    font-size: 26px;
+    color: #134731;
+    transition: color 0.2s linear;
+  }
+}

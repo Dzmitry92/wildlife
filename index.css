@@ -53,6 +53,10 @@ header {
 .nav-block ul li:not(:last-child) {
   margin-right: 60px;
 }
+.nav-block ul a {
+  font-size: 23px;
+  line-height: 60px;
+}
 .nav-block ul a:hover {
   text-decoration: underline;
 }
@@ -75,7 +79,7 @@ header {
   background-color: #cccccc;
 }
 
-.footer {
+footer {
   background-color: #181617;
 }
 
@@ -264,4 +268,47 @@ header {
 }
 .btn-send:hover {
   background-color: #E39128;
+}
+
+.footer-content {
+  height: 360px;
+  background: url(../assets/footerImg.jpg) no-repeat;
+}
+
+.conten-box {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #F7F7F7;
+  cursor: pointer;
+  transition: background-color 0.2s linear;
+}
+.circle:not(:last-child) {
+  margin-right: 26px;
+}
+.circle:hover {
+  background-color: #E39128;
+}
+.circle:hover i {
+  color: #F7F7F7;
+}
+.circle i {
+  font-size: 26px;
+  color: #134731;
+  transition: color 0.2s linear;
 }

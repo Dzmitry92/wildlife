@@ -4,7 +4,8 @@
   display: flex;
   align-items: center;
   height: 780px;
-  background: url(../assets/fox.jpg) no-repeat;
+  background: url(../assets/fox.jpg) no-repeat center;
+  background-size: cover;
 }
 
 .info-block {
@@ -32,7 +33,7 @@
 
   .btn-donate {
     border: none;
-    padding: 16px 42px;
+    padding: 16px 43px;
     background-color: $orange-main;
 
     &:hover, &:focus {
